@@ -48,4 +48,4 @@ def logOut(info):
 def add(a,b):
     return a/b
 
-print(add(1,0))
+#print(add(1,0))
