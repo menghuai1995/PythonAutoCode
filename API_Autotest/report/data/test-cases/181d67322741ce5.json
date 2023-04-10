@@ -1,0 +1,114 @@
+{
+  "uid" : "181d67322741ce5",
+  "name" : "test_1[derivativeZhName传空失败]",
+  "fullName" : "test_system.TestClass#test_1",
+  "historyId" : "41bc6d610af955049b857e74a06396a5",
+  "time" : {
+    "start" : 1680255979690,
+    "stop" : 1680255979806,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestClass",
+    "time" : {
+      "start" : 1680255979349,
+      "stop" : 1680255979349,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "363ba0744dc6bec0",
+      "name" : "log",
+      "source" : "363ba0744dc6bec0.txt",
+      "type" : "text/plain",
+      "size" : 894
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestClass::0",
+    "time" : {
+      "start" : 1680255979808,
+      "stop" : 1680255979865,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "新增接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_system"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "ZT23088-DC"
+  }, {
+    "name" : "thread",
+    "value" : "18904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_system"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "'{\"approvalWhether\":0,\"countCaliber\":\"jskj2\",\"derivativeDescribe\":\"ms2\",\"derivativeEnName\":\"auto2\",\"derivativeZhName\":\"\"}'"
+  }, {
+    "name" : "expected",
+    "value" : "500002"
+  }, {
+    "name" : "row",
+    "value" : "3"
+  }, {
+    "name" : "url",
+    "value" : "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "181d67322741ce5.json",
+  "parameterValues" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"jskj2\",\"derivativeDescribe\":\"ms2\",\"derivativeEnName\":\"auto2\",\"derivativeZhName\":\"\"}'", "500002", "3", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+}

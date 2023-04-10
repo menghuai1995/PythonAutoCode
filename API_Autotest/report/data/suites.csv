@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 31 17:46:19 CST 2023","Fri Mar 31 17:46:19 CST 2023","116","","test_system","TestClass","","","test_1[derivativeZhName传空失败]",""
+"passed","Fri Mar 31 17:46:19 CST 2023","Fri Mar 31 17:46:19 CST 2023","335","","test_system","TestClass","","","test_1[增加业务系统成功]",""
+"passed","Fri Mar 31 17:46:19 CST 2023","Fri Mar 31 17:46:19 CST 2023","0","","test_allure","TestAllure","","","case2",""
+"passed","Fri Mar 31 17:46:19 CST 2023","Fri Mar 31 17:46:19 CST 2023","1","","test_allure","TestAllure","","","case1",""

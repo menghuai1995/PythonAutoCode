@@ -1,0 +1,8 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+INFO     root:baseRequest.py:24 ===========接口API请求开始===========
+INFO     root:baseRequest.py:25 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+INFO     root:baseRequest.py:26 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+INFO     root:baseRequest.py:27 响应参数：{"params":null,"code":500002,"status":0,"message":"衍生词中文名称不能为空","data":null,"success":false}
+INFO     root:baseRequest.py:28 响应时间：81.92099999999999ms
+INFO     root:baseRequest.py:29 ===========结束===========

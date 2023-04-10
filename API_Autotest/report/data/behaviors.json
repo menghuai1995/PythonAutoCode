@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试流程",
+    "children" : [ {
+      "name" : "case1",
+      "uid" : "9a1af824d7cb197c",
+      "parentUid" : "3b3e01552f2acdf7e5ffeca0269204b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680255979346,
+        "stop" : 1680255979347,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "case2",
+      "uid" : "e04d036b15927f10",
+      "parentUid" : "3b3e01552f2acdf7e5ffeca0269204b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680255979348,
+        "stop" : 1680255979348,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3b3e01552f2acdf7e5ffeca0269204b9"
+  }, {
+    "name" : "新增接口",
+    "children" : [ {
+      "name" : "test_1[增加业务系统成功]",
+      "uid" : "14839723985e1285",
+      "parentUid" : "1237e57216d36994fdb3df2b4746a082",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680255979350,
+        "stop" : 1680255979685,
+        "duration" : 335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"计算口径6\",\"derivativeDescribe\":\"描述6\",\"derivativeEnName\":\"auto6\",\"derivativeZhName\":\"自动化6\"}'", "200", "2", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+    }, {
+      "name" : "test_1[derivativeZhName传空失败]",
+      "uid" : "181d67322741ce5",
+      "parentUid" : "1237e57216d36994fdb3df2b4746a082",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680255979690,
+        "stop" : 1680255979806,
+        "duration" : 116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"jskj2\",\"derivativeDescribe\":\"ms2\",\"derivativeEnName\":\"auto2\",\"derivativeZhName\":\"\"}'", "500002", "3", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+    } ],
+    "uid" : "1237e57216d36994fdb3df2b4746a082"
+  } ]
+}

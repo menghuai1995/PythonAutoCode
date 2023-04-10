@@ -1,0 +1,17 @@
+2022-07-13 16:06:15,027 - root - INFO - 1111
+2022-07-13 16:06:48,050 - root - INFO - 1111
+2022-07-13 16:11:09,893 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.122.105:9900
+2022-07-13 16:11:30,936 - root - ERROR - HTTPConnectionPool(host='192.168.122.105', port=9900): Max retries exceeded with url: /basic-user/web/business/system/list (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000042D4E10>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))
+2022-07-13 16:11:30,939 - root - ERROR - 'dict' object has no attribute 'encode'
+2022-07-13 17:39:21,792 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-13 17:39:21,852 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-13 17:39:21,853 - root - INFO - {"code":401, "message": "请求未授权", "data": ""}
+2022-07-13 17:39:55,519 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-13 17:39:55,550 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-13 17:39:55,551 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-13 17:42:14,394 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-13 17:42:14,541 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-13 17:42:14,542 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-13 17:42:58,890 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-13 17:42:58,942 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-13 17:42:58,943 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}

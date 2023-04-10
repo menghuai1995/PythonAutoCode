@@ -1,0 +1,41 @@
+[ {
+  "uid" : "181d67322741ce5",
+  "name" : "test_1[derivativeZhName传空失败]",
+  "time" : {
+    "start" : 1680255979690,
+    "stop" : 1680255979806,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14839723985e1285",
+  "name" : "test_1[增加业务系统成功]",
+  "time" : {
+    "start" : 1680255979350,
+    "stop" : 1680255979685,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e04d036b15927f10",
+  "name" : "case2",
+  "time" : {
+    "start" : 1680255979348,
+    "stop" : 1680255979348,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a1af824d7cb197c",
+  "name" : "case1",
+  "time" : {
+    "start" : 1680255979346,
+    "stop" : 1680255979347,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

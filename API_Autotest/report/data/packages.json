@@ -1,0 +1,65 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_allure",
+    "children" : [ {
+      "name" : "case1",
+      "uid" : "9a1af824d7cb197c",
+      "parentUid" : "3ef423425f5377a296d8a347a72b5b74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680255979346,
+        "stop" : 1680255979347,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "case2",
+      "uid" : "e04d036b15927f10",
+      "parentUid" : "3ef423425f5377a296d8a347a72b5b74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680255979348,
+        "stop" : 1680255979348,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ef423425f5377a296d8a347a72b5b74"
+  }, {
+    "name" : "test_system",
+    "children" : [ {
+      "name" : "test_1[增加业务系统成功]",
+      "uid" : "14839723985e1285",
+      "parentUid" : "127ff6a0d1b309fb1bc6b1119842b1c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680255979350,
+        "stop" : 1680255979685,
+        "duration" : 335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"计算口径6\",\"derivativeDescribe\":\"描述6\",\"derivativeEnName\":\"auto6\",\"derivativeZhName\":\"自动化6\"}'", "200", "2", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+    }, {
+      "name" : "test_1[derivativeZhName传空失败]",
+      "uid" : "181d67322741ce5",
+      "parentUid" : "127ff6a0d1b309fb1bc6b1119842b1c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680255979690,
+        "stop" : 1680255979806,
+        "duration" : 116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"jskj2\",\"derivativeDescribe\":\"ms2\",\"derivativeEnName\":\"auto2\",\"derivativeZhName\":\"\"}'", "500002", "3", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+    } ],
+    "uid" : "127ff6a0d1b309fb1bc6b1119842b1c8"
+  } ]
+}

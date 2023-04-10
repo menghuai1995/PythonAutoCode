@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ZT23088-DC",
+    "children" : [ {
+      "name" : "18904-MainThread",
+      "children" : [ {
+        "name" : "test_1[derivativeZhName传空失败]",
+        "uid" : "181d67322741ce5",
+        "parentUid" : "0ff11c973400dcaa76fe29f42005aac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680255979690,
+          "stop" : 1680255979806,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"jskj2\",\"derivativeDescribe\":\"ms2\",\"derivativeEnName\":\"auto2\",\"derivativeZhName\":\"\"}'", "500002", "3", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+      }, {
+        "name" : "case1",
+        "uid" : "9a1af824d7cb197c",
+        "parentUid" : "0ff11c973400dcaa76fe29f42005aac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680255979346,
+          "stop" : 1680255979347,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "case2",
+        "uid" : "e04d036b15927f10",
+        "parentUid" : "0ff11c973400dcaa76fe29f42005aac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680255979348,
+          "stop" : 1680255979348,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1[增加业务系统成功]",
+        "uid" : "14839723985e1285",
+        "parentUid" : "0ff11c973400dcaa76fe29f42005aac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680255979350,
+          "stop" : 1680255979685,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"计算口径6\",\"derivativeDescribe\":\"描述6\",\"derivativeEnName\":\"auto6\",\"derivativeZhName\":\"自动化6\"}'", "200", "2", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+      } ],
+      "uid" : "0ff11c973400dcaa76fe29f42005aac7"
+    } ],
+    "uid" : "32d44ad166d339d2bdba25577d62bc1e"
+  } ]
+}

@@ -1,0 +1,292 @@
+2023-03-29 10:04:31,460 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:04:31,489 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:04:31,490 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:04:31,490 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:04:31,490 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 10:04:31,491 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:04:31,491 - root - INFO - 响应时间：30.093999999999998ms
+2023-03-29 10:04:31,491 - root - INFO - ===========结束===========
+2023-03-29 10:04:31,531 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:04:31,544 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:04:31,544 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:04:31,545 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:04:31,545 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 10:04:31,545 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:04:31,545 - root - INFO - 响应时间：14.487ms
+2023-03-29 10:04:31,545 - root - INFO - ===========结束===========
+2023-03-29 10:16:41,412 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:16:41,415 - root - ERROR - 接口请求异常！HTTPConnectionPool(host='test-dmsc-api.eminxing.com', port=80): Max retries exceeded with url: /ims/web/derivative/save (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A133B4C9B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+2023-03-29 10:16:41,447 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:16:41,448 - root - ERROR - 接口请求异常！HTTPConnectionPool(host='test-dmsc-api.eminxing.com', port=80): Max retries exceeded with url: /ims/web/derivative/save (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A133BAF2E8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+2023-03-29 10:43:28,918 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:43:28,953 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:43:28,953 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:43:28,954 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:43:28,954 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 10:43:28,955 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:43:28,955 - root - INFO - 响应时间：35.879ms
+2023-03-29 10:43:28,955 - root - INFO - ===========结束===========
+2023-03-29 10:43:28,993 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:43:29,009 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:43:29,010 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:43:29,010 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:43:29,010 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 10:43:29,010 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:43:29,010 - root - INFO - 响应时间：16.433ms
+2023-03-29 10:43:29,010 - root - INFO - ===========结束===========
+2023-03-29 10:44:09,637 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:44:09,709 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:44:09,710 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:44:09,710 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:44:09,710 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 10:44:09,712 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:44:09,712 - root - INFO - 响应时间：73.378ms
+2023-03-29 10:44:09,712 - root - INFO - ===========结束===========
+2023-03-29 10:44:09,755 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:44:09,776 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:44:09,776 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:44:09,776 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:44:09,777 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 10:44:09,777 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:44:09,777 - root - INFO - 响应时间：21.355ms
+2023-03-29 10:44:09,777 - root - INFO - ===========结束===========
+2023-03-29 10:52:20,663 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:52:20,709 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:52:20,710 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:52:20,710 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:52:20,710 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 10:52:20,710 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:52:20,710 - root - INFO - 响应时间：45.954ms
+2023-03-29 10:52:20,710 - root - INFO - ===========结束===========
+2023-03-29 10:52:20,750 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:52:20,767 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:52:20,768 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:52:20,768 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:52:20,768 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 10:52:20,768 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:52:20,768 - root - INFO - 响应时间：17.662ms
+2023-03-29 10:52:20,768 - root - INFO - ===========结束===========
+2023-03-29 10:54:01,844 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:54:01,932 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:54:01,933 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:54:01,933 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:54:01,933 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 10:54:01,935 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:54:01,935 - root - INFO - 响应时间：88.32900000000001ms
+2023-03-29 10:54:01,935 - root - INFO - ===========结束===========
+2023-03-29 10:54:01,972 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:54:02,049 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:54:02,049 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:54:02,050 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:54:02,050 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 10:54:02,050 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:54:02,050 - root - INFO - 响应时间：78.116ms
+2023-03-29 10:54:02,050 - root - INFO - ===========结束===========
+2023-03-29 10:59:40,864 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:59:40,894 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:59:40,896 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:59:40,896 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:59:40,896 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 10:59:40,896 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:59:40,896 - root - INFO - 响应时间：31.797ms
+2023-03-29 10:59:40,896 - root - INFO - ===========结束===========
+2023-03-29 10:59:40,935 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 10:59:40,976 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 10:59:40,976 - root - INFO - ===========接口API请求开始===========
+2023-03-29 10:59:40,976 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 10:59:40,977 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 10:59:40,977 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 10:59:40,977 - root - INFO - 响应时间：41.774ms
+2023-03-29 10:59:40,977 - root - INFO - ===========结束===========
+2023-03-29 11:01:22,651 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 11:01:22,686 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 11:01:22,687 - root - INFO - ===========接口API请求开始===========
+2023-03-29 11:01:22,687 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 11:01:22,687 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 11:01:22,689 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 11:01:22,689 - root - INFO - 响应时间：35.246ms
+2023-03-29 11:01:22,689 - root - INFO - ===========结束===========
+2023-03-29 11:01:22,725 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 11:01:22,746 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 11:01:22,746 - root - INFO - ===========接口API请求开始===========
+2023-03-29 11:01:22,747 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 11:01:22,747 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 11:01:22,747 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 11:01:22,747 - root - INFO - 响应时间：21.228ms
+2023-03-29 11:01:22,747 - root - INFO - ===========结束===========
+2023-03-29 11:04:13,748 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 11:04:13,839 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 11:04:13,840 - root - INFO - ===========接口API请求开始===========
+2023-03-29 11:04:13,840 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 11:04:13,840 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 11:04:13,841 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 11:04:13,841 - root - INFO - 响应时间：92.357ms
+2023-03-29 11:04:13,841 - root - INFO - ===========结束===========
+2023-03-29 11:04:13,879 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 11:04:13,914 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 11:04:13,915 - root - INFO - ===========接口API请求开始===========
+2023-03-29 11:04:13,915 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 11:04:13,915 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 11:04:13,915 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 11:04:13,915 - root - INFO - 响应时间：35.145ms
+2023-03-29 11:04:13,915 - root - INFO - ===========结束===========
+2023-03-29 11:18:22,424 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 11:18:22,460 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 11:18:22,460 - root - INFO - ===========接口API请求开始===========
+2023-03-29 11:18:22,461 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 11:18:22,461 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 11:18:22,461 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 11:18:22,461 - root - INFO - 响应时间：36.676ms
+2023-03-29 11:18:22,461 - root - INFO - ===========结束===========
+2023-03-29 11:18:22,499 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 11:18:22,516 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 11:18:22,516 - root - INFO - ===========接口API请求开始===========
+2023-03-29 11:18:22,516 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 11:18:22,516 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 11:18:22,516 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 11:18:22,516 - root - INFO - 响应时间：17.239ms
+2023-03-29 11:18:22,517 - root - INFO - ===========结束===========
+2023-03-29 13:46:35,922 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 13:46:35,947 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 13:46:35,948 - root - INFO - ===========接口API请求开始===========
+2023-03-29 13:46:35,949 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 13:46:35,949 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 13:46:35,949 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 13:46:35,949 - root - INFO - 响应时间：26.192ms
+2023-03-29 13:46:35,949 - root - INFO - ===========结束===========
+2023-03-29 13:46:35,995 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 13:46:36,007 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 13:46:36,007 - root - INFO - ===========接口API请求开始===========
+2023-03-29 13:46:36,007 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 13:46:36,007 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 13:46:36,008 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 13:46:36,008 - root - INFO - 响应时间：12.129ms
+2023-03-29 13:46:36,008 - root - INFO - ===========结束===========
+2023-03-29 13:51:43,004 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 13:51:43,027 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 13:51:43,027 - root - INFO - ===========接口API请求开始===========
+2023-03-29 13:51:43,028 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 13:51:43,028 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 13:51:43,028 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 13:51:43,028 - root - INFO - 响应时间：23.061999999999998ms
+2023-03-29 13:51:43,028 - root - INFO - ===========结束===========
+2023-03-29 13:51:43,067 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 13:51:43,081 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 13:51:43,081 - root - INFO - ===========接口API请求开始===========
+2023-03-29 13:51:43,081 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 13:51:43,082 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 13:51:43,082 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 13:51:43,082 - root - INFO - 响应时间：13.530000000000001ms
+2023-03-29 13:51:43,082 - root - INFO - ===========结束===========
+2023-03-29 13:55:58,501 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 13:55:58,583 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 13:55:58,584 - root - INFO - ===========接口API请求开始===========
+2023-03-29 13:55:58,584 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 13:55:58,584 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 13:55:58,584 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 13:55:58,584 - root - INFO - 响应时间：82.517ms
+2023-03-29 13:55:58,584 - root - INFO - ===========结束===========
+2023-03-29 13:55:58,628 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 13:55:58,657 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 13:55:58,658 - root - INFO - ===========接口API请求开始===========
+2023-03-29 13:55:58,658 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 13:55:58,658 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 13:55:58,658 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 13:55:58,658 - root - INFO - 响应时间：30.006ms
+2023-03-29 13:55:58,658 - root - INFO - ===========结束===========
+2023-03-29 13:57:04,420 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 13:57:04,472 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 13:57:04,473 - root - INFO - ===========接口API请求开始===========
+2023-03-29 13:57:04,474 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 13:57:04,474 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 13:57:04,474 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 13:57:04,475 - root - INFO - 响应时间：53.188ms
+2023-03-29 13:57:04,475 - root - INFO - ===========结束===========
+2023-03-29 13:57:04,514 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 13:57:04,565 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 13:57:04,566 - root - INFO - ===========接口API请求开始===========
+2023-03-29 13:57:04,566 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 13:57:04,566 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 13:57:04,566 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 13:57:04,566 - root - INFO - 响应时间：51.386ms
+2023-03-29 13:57:04,566 - root - INFO - ===========结束===========
+2023-03-29 14:28:03,601 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 14:28:03,779 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-29 14:28:03,781 - root - INFO - ===========接口API请求开始===========
+2023-03-29 14:28:03,783 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 14:28:03,783 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 14:28:03,783 - root - INFO - 响应参数：{"params":null,"code":403,"status":0,"message":"用户无权限 [ims:derivative:add]","data":null,"success":false}
+2023-03-29 14:28:03,783 - root - INFO - 响应时间：179.643ms
+2023-03-29 14:28:03,783 - root - INFO - ===========结束===========
+2023-03-29 14:28:03,813 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 14:28:03,834 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-29 14:28:03,835 - root - INFO - ===========接口API请求开始===========
+2023-03-29 14:28:03,835 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 14:28:03,835 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 14:28:03,835 - root - INFO - 响应参数：{"params":null,"code":500002,"status":0,"message":"衍生词中文名称不能为空","data":null,"success":false}
+2023-03-29 14:28:03,836 - root - INFO - 响应时间：22.329ms
+2023-03-29 14:28:03,836 - root - INFO - ===========结束===========
+2023-03-29 14:32:50,813 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 14:32:50,943 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 14:32:50,943 - root - INFO - ===========接口API请求开始===========
+2023-03-29 14:32:50,944 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 14:32:50,944 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 14:32:50,944 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 14:32:50,944 - root - INFO - 响应时间：131.236ms
+2023-03-29 14:32:50,944 - root - INFO - ===========结束===========
+2023-03-29 14:32:50,975 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 14:32:50,997 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2023-03-29 14:32:50,997 - root - INFO - ===========接口API请求开始===========
+2023-03-29 14:32:50,998 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 14:32:50,998 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 14:32:50,998 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2023-03-29 14:32:50,998 - root - INFO - 响应时间：22.615ms
+2023-03-29 14:32:50,998 - root - INFO - ===========结束===========
+2023-03-29 14:35:25,146 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 14:35:25,194 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-29 14:35:25,195 - root - INFO - ===========接口API请求开始===========
+2023-03-29 14:35:25,195 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 14:35:25,195 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 14:35:25,195 - root - INFO - 响应参数：{"params":null,"code":200,"status":1,"message":"成功","data":{"code":200,"message":"成功","params":null},"success":true}
+2023-03-29 14:35:25,195 - root - INFO - 响应时间：48.399ms
+2023-03-29 14:35:25,195 - root - INFO - ===========结束===========
+2023-03-29 14:35:25,237 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 14:35:25,272 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-29 14:35:25,272 - root - INFO - ===========接口API请求开始===========
+2023-03-29 14:35:25,272 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 14:35:25,272 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 14:35:25,273 - root - INFO - 响应参数：{"params":null,"code":500002,"status":0,"message":"衍生词中文名称不能为空","data":null,"success":false}
+2023-03-29 14:35:25,273 - root - INFO - 响应时间：35.728ms
+2023-03-29 14:35:25,273 - root - INFO - ===========结束===========
+2023-03-29 18:01:36,142 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 18:01:36,260 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-29 18:01:36,265 - root - INFO - ===========接口API请求开始===========
+2023-03-29 18:01:36,268 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 18:01:36,268 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 18:01:36,268 - root - INFO - 响应参数：{"params":null,"code":403,"status":0,"message":"用户无权限 [ims:derivative:add]","data":null,"success":false}
+2023-03-29 18:01:36,270 - root - INFO - 响应时间：120.423ms
+2023-03-29 18:01:36,270 - root - INFO - ===========结束===========
+2023-03-29 18:01:36,313 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 18:01:36,365 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-29 18:01:36,366 - root - INFO - ===========接口API请求开始===========
+2023-03-29 18:01:36,366 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 18:01:36,366 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 18:01:36,366 - root - INFO - 响应参数：{"params":null,"code":500002,"status":0,"message":"衍生词中文名称不能为空","data":null,"success":false}
+2023-03-29 18:01:36,367 - root - INFO - 响应时间：53.307ms
+2023-03-29 18:01:36,367 - root - INFO - ===========结束===========
+2023-03-29 18:11:48,363 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 18:11:48,554 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-29 18:11:48,555 - root - INFO - ===========接口API请求开始===========
+2023-03-29 18:11:48,557 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 18:11:48,557 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-29 18:11:48,557 - root - INFO - 响应参数：{"params":null,"code":500001,"status":0,"message":"衍生词名称已存在","data":null,"success":false}
+2023-03-29 18:11:48,558 - root - INFO - 响应时间：191.432ms
+2023-03-29 18:11:48,558 - root - INFO - ===========结束===========
+2023-03-29 18:11:48,599 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-29 18:11:48,627 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-29 18:11:48,628 - root - INFO - ===========接口API请求开始===========
+2023-03-29 18:11:48,628 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-29 18:11:48,628 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-29 18:11:48,628 - root - INFO - 响应参数：{"params":null,"code":500002,"status":0,"message":"衍生词中文名称不能为空","data":null,"success":false}
+2023-03-29 18:11:48,629 - root - INFO - 响应时间：29.345ms
+2023-03-29 18:11:48,629 - root - INFO - ===========结束===========

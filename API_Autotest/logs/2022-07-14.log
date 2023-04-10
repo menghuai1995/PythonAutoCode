@@ -1,0 +1,59 @@
+2022-07-14 15:23:53,755 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 15:23:53,809 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 15:23:53,810 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 16:50:45,673 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 16:50:45,747 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 16:50:45,748 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 16:51:25,938 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 16:51:26,004 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 16:51:26,004 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 16:51:41,275 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 16:51:41,322 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 16:51:41,322 - root - INFO - ==========接口API请求开始===========
+2022-07-14 16:51:41,322 - root - ERROR - name 'params' is not defined
+2022-07-14 16:52:01,496 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 16:52:01,536 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 16:52:01,537 - root - INFO - ==========接口API请求开始===========
+2022-07-14 16:52:01,537 - root - INFO - 请求URL：http://uat-dmsc-api.eminxing.com/ims/web/derivative/save/n请求参数：{"approvalWhether": 0, "countCaliber": "\u8ba1\u7b97\u53e3\u5f841", "derivativeDescribe": "\u63cf\u8ff0", "derivativeEnName": "auto1", "derivativeZhName": "\u81ea\u52a8\u53161"}
+2022-07-14 16:52:01,537 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 16:53:43,215 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 16:53:43,262 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 16:53:43,263 - root - INFO - ==========接口API请求开始===========
+2022-07-14 16:53:43,263 - root - INFO - 请求URL：http://uat-dmsc-api.eminxing.com/ims/web/derivative/save
+请求参数：{"approvalWhether": 0, "countCaliber": "\u8ba1\u7b97\u53e3\u5f841", "derivativeDescribe": "\u63cf\u8ff0", "derivativeEnName": "auto1", "derivativeZhName": "\u81ea\u52a8\u53161"}
+2022-07-14 16:53:43,263 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 16:58:45,411 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 16:58:45,534 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 16:58:45,535 - root - INFO - ==========接口API请求开始===========
+2022-07-14 16:58:45,535 - root - INFO - 请求URL：http://uat-dmsc-api.eminxing.com/ims/web/derivative/save
+2022-07-14 16:58:45,535 - root - INFO - 请求参数数：{"approvalWhether": 0, "countCaliber": "\u8ba1\u7b97\u53e3\u5f841", "derivativeDescribe": "\u63cf\u8ff0", "derivativeEnName": "auto1", "derivativeZhName": "\u81ea\u52a8\u53161"}
+2022-07-14 16:58:45,535 - root - INFO - 接口请求成功！返回参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 17:54:05,101 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 17:54:05,168 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 17:54:05,168 - root - INFO - ===========接口API请求开始===========
+2022-07-14 17:54:05,169 - root - INFO - 请求URL：http://uat-dmsc-api.eminxing.com/ims/web/derivative/save
+2022-07-14 17:54:05,169 - root - INFO - 请求参数：{"approvalWhether": 0, "countCaliber": "\u8ba1\u7b97\u53e3\u5f841", "derivativeDescribe": "\u63cf\u8ff0", "derivativeEnName": "auto1", "derivativeZhName": "\u81ea\u52a8\u53161"}
+2022-07-14 17:54:05,169 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 17:54:05,169 - root - INFO - 响应时间：0.066886
+2022-07-14 17:54:27,528 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 17:54:27,557 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 17:54:27,558 - root - INFO - ===========接口API请求开始===========
+2022-07-14 17:54:27,558 - root - INFO - 请求URL：http://uat-dmsc-api.eminxing.com/ims/web/derivative/save
+2022-07-14 17:54:27,558 - root - INFO - 请求参数：{"approvalWhether": 0, "countCaliber": "\u8ba1\u7b97\u53e3\u5f841", "derivativeDescribe": "\u63cf\u8ff0", "derivativeEnName": "auto1", "derivativeZhName": "\u81ea\u52a8\u53161"}
+2022-07-14 17:54:27,558 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 17:54:27,558 - root - INFO - 响应时间：0.029636s
+2022-07-14 17:55:15,973 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 17:55:16,000 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 17:55:16,000 - root - INFO - ===========接口API请求开始===========
+2022-07-14 17:55:16,000 - root - INFO - 请求URL：http://uat-dmsc-api.eminxing.com/ims/web/derivative/save
+2022-07-14 17:55:16,000 - root - INFO - 请求参数：{"approvalWhether": 0, "countCaliber": "\u8ba1\u7b97\u53e3\u5f841", "derivativeDescribe": "\u63cf\u8ff0", "derivativeEnName": "auto1", "derivativeZhName": "\u81ea\u52a8\u53161"}
+2022-07-14 17:55:16,000 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 17:55:16,000 - root - INFO - 响应时间：26.546ms
+2022-07-14 17:56:01,271 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): uat-dmsc-api.eminxing.com:80
+2022-07-14 17:56:01,301 - urllib3.connectionpool - DEBUG - http://uat-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 401 54
+2022-07-14 17:56:01,302 - root - INFO - ===========接口API请求开始===========
+2022-07-14 17:56:01,302 - root - INFO - 请求URL：http://uat-dmsc-api.eminxing.com/ims/web/derivative/save
+2022-07-14 17:56:01,302 - root - INFO - 请求参数：{"approvalWhether": 0, "countCaliber": "\u8ba1\u7b97\u53e3\u5f841", "derivativeDescribe": "\u63cf\u8ff0", "derivativeEnName": "auto1", "derivativeZhName": "\u81ea\u52a8\u53161"}
+2022-07-14 17:56:01,302 - root - INFO - 响应参数：{"code":401, "message": "请求未授权", "data": ""}
+2022-07-14 17:56:01,302 - root - INFO - 响应时间：30.511ms
+2022-07-14 17:56:01,302 - root - INFO - ===========结束===========

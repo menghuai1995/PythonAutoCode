@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_allure",
+    "children" : [ {
+      "name" : "TestAllure",
+      "children" : [ {
+        "name" : "case1",
+        "uid" : "9a1af824d7cb197c",
+        "parentUid" : "b6206a2ef0dbd610dd82f828a8166e60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680255979346,
+          "stop" : 1680255979347,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "case2",
+        "uid" : "e04d036b15927f10",
+        "parentUid" : "b6206a2ef0dbd610dd82f828a8166e60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680255979348,
+          "stop" : 1680255979348,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6206a2ef0dbd610dd82f828a8166e60"
+    } ],
+    "uid" : "fbee53df8487942ba5333ea9eebb3863"
+  }, {
+    "name" : "test_system",
+    "children" : [ {
+      "name" : "TestClass",
+      "children" : [ {
+        "name" : "test_1[增加业务系统成功]",
+        "uid" : "14839723985e1285",
+        "parentUid" : "c83e31f3245dbf178b63f43063146319",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680255979350,
+          "stop" : 1680255979685,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"计算口径6\",\"derivativeDescribe\":\"描述6\",\"derivativeEnName\":\"auto6\",\"derivativeZhName\":\"自动化6\"}'", "200", "2", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+      }, {
+        "name" : "test_1[derivativeZhName传空失败]",
+        "uid" : "181d67322741ce5",
+        "parentUid" : "c83e31f3245dbf178b63f43063146319",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680255979690,
+          "stop" : 1680255979806,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"approvalWhether\":0,\"countCaliber\":\"jskj2\",\"derivativeDescribe\":\"ms2\",\"derivativeEnName\":\"auto2\",\"derivativeZhName\":\"\"}'", "500002", "3", "'http://test-dmsc-api.eminxing.com/ims/web/derivative/save'" ]
+      } ],
+      "uid" : "c83e31f3245dbf178b63f43063146319"
+    } ],
+    "uid" : "4d82ca45f426850471936e19c667d0c2"
+  } ]
+}

@@ -1,0 +1,29 @@
+2023-03-28 16:23:58,513 - root - DEBUG - 调试
+2023-03-28 16:23:58,513 - root - INFO - 信息
+2023-03-28 16:23:58,513 - root - WARNING - 警告
+2023-03-28 16:23:58,513 - root - ERROR - 报错
+2023-03-28 16:23:58,514 - root - CRITICAL - 严重
+2023-03-28 16:38:52,407 - root - DEBUG - 调试
+2023-03-28 16:38:52,408 - root - INFO - 信息
+2023-03-28 16:38:52,408 - root - WARNING - 警告
+2023-03-28 16:38:52,408 - root - ERROR - 报错
+2023-03-28 16:38:52,408 - root - CRITICAL - 严重
+2023-03-28 17:23:59,062 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.122.105:9900
+2023-03-28 17:24:20,102 - root - ERROR - HTTPConnectionPool(host='192.168.122.105', port=9900): Max retries exceeded with url: /basic-user/web/business/system/list (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022025723DD8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))
+2023-03-28 17:24:20,102 - root - ERROR - 'dict' object has no attribute 'encode'
+2023-03-28 17:40:19,446 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-28 17:40:19,502 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-28 17:40:19,503 - root - INFO - ===========接口API请求开始===========
+2023-03-28 17:40:19,503 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-28 17:40:19,504 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"计算口径6","derivativeDescribe":"描述6","derivativeEnName":"auto6","derivativeZhName":"自动化6"}
+2023-03-28 17:40:19,505 - root - INFO - 响应参数：{"params":null,"code":500001,"status":0,"message":"衍生词名称已存在","data":null,"success":false}
+2023-03-28 17:40:19,505 - root - INFO - 响应时间：57.291000000000004ms
+2023-03-28 17:40:19,505 - root - INFO - ===========结束===========
+2023-03-28 17:40:19,545 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): test-dmsc-api.eminxing.com:80
+2023-03-28 17:40:19,571 - urllib3.connectionpool - DEBUG - http://test-dmsc-api.eminxing.com:80 "POST /ims/web/derivative/save HTTP/1.1" 200 None
+2023-03-28 17:40:19,572 - root - INFO - ===========接口API请求开始===========
+2023-03-28 17:40:19,572 - root - INFO - 请求URL：http://test-dmsc-api.eminxing.com/ims/web/derivative/save
+2023-03-28 17:40:19,572 - root - INFO - 请求参数：{"approvalWhether":0,"countCaliber":"jskj2","derivativeDescribe":"ms2","derivativeEnName":"auto2","derivativeZhName":""}
+2023-03-28 17:40:19,572 - root - INFO - 响应参数：{"params":null,"code":500002,"status":0,"message":"衍生词中文名称不能为空","data":null,"success":false}
+2023-03-28 17:40:19,572 - root - INFO - 响应时间：26.828ms
+2023-03-28 17:40:19,572 - root - INFO - ===========结束===========
